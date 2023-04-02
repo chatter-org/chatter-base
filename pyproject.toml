@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "chatter-base"
+version = "0.1.0"
+description = ""
+authors = ["NekrodNIK"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "chatter_base"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
