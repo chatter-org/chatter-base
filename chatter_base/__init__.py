@@ -1,1 +1,1 @@
-from .main import app
+from chatter_base.main import app
